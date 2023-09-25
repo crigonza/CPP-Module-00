@@ -6,7 +6,7 @@
 /*   By: crigonza <crigonza@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 19:00:20 by crigonza          #+#    #+#             */
-/*   Updated: 2023/09/07 17:59:11 by crigonza         ###   ########.fr       */
+/*   Updated: 2023/09/25 19:23:05 by crigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,11 +101,6 @@ void Phonebook::print(Contact contact)
 
 void Phonebook::list(Contact contact)
 {
-    /* if (!contact.get_firstName().length())
-    {
-        std::cout << "Empty entry" << std::endl;
-        return;
-    } */
     std::cout << "First name: " << contact.get_firstName() << std::endl;
     std::cout << "Last name: " << contact.get_lastName() << std::endl;
     std::cout << "Nickname: " << contact.get_nick() << std::endl;

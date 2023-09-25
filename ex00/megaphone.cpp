@@ -6,13 +6,13 @@
 /*   By: crigonza <crigonza@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 18:45:59 by crigonza          #+#    #+#             */
-/*   Updated: 2023/07/25 19:10:11 by crigonza         ###   ########.fr       */
+/*   Updated: 2023/09/25 19:17:00 by crigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-int main(int argc, char **argv)
+int     main(int argc, char **argv)
 {
     int i;
     int j;
@@ -22,10 +22,10 @@ int main(int argc, char **argv)
         std::cout << "* LOUD AND UNBEREABLE FEEDBACK NOISE *";
     else
     {
-        while(argv[i])
+        while (argv[i])
         {
             j = 0;
-            while(argv[i][j])
+            while (argv[i][j])
             {
                 std::cout << (char)std::toupper(argv[i][j]);
                 j++;

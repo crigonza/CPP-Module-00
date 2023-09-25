@@ -20,27 +20,27 @@ Contact::~Contact(void)
 {
 }
 
-std::string Contact::get_firstName(void)
+std::string     Contact::get_firstName(void)
 {
     return (this->_firstName);
 }
 
-std::string Contact::get_lastName(void)
+std::string     Contact::get_lastName(void)
 {
     return (this->_lastName);
 }
 
-std::string Contact::get_nick(void)
+std::string     Contact::get_nick(void)
 {
     return (this->_nick);
 }
 
-std::string Contact::get_phoneNumber(void)
+std::string     Contact::get_phoneNumber(void)
 {
     return (this->_phoneNumber);
 }
 
-std::string Contact::get_darkestSecret(void)
+std::string     Contact::get_darkestSecret(void)
 {
     return (this->_darkestSecret);
 }

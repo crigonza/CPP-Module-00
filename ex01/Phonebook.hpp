@@ -6,7 +6,7 @@
 /*   By: crigonza <crigonza@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 18:54:05 by crigonza          #+#    #+#             */
-/*   Updated: 2023/09/05 19:09:38 by crigonza         ###   ########.fr       */
+/*   Updated: 2023/09/25 19:23:30 by crigonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,16 +18,16 @@
 class Phonebook
 {
     private:
-        Contact _contacts[8];
-        int     _id;
+        Contact     _contacts[8];
+        int         _id;
     public:
         Phonebook(void);
         ~Phonebook(void);
-        void    add(void);
-        void    search(void);
-        void    print(Contact contact);
-        void    list(Contact contact);
-        Contact get_contact(int id);
+        void        add(void);
+        void        search(void);
+        void        print(Contact contact);
+        void        list(Contact contact);
+        Contact     get_contact(int id);
 };
 
 #endif
